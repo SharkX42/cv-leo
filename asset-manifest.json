@@ -1,7 +1,7 @@
 {
   "main.css": "/cv-leo/static/css/main.79ad3f80.chunk.css",
-  "main.js": "/cv-leo/static/js/main.117014e4.chunk.js",
-  "main.js.map": "/cv-leo/static/js/main.117014e4.chunk.js.map",
+  "main.js": "/cv-leo/static/js/main.fb9a3ba6.chunk.js",
+  "main.js.map": "/cv-leo/static/js/main.fb9a3ba6.chunk.js.map",
   "static/css/1.874b0815.chunk.css": "/cv-leo/static/css/1.874b0815.chunk.css",
   "static/js/1.b23e02b8.chunk.js": "/cv-leo/static/js/1.b23e02b8.chunk.js",
   "static/js/1.b23e02b8.chunk.js.map": "/cv-leo/static/js/1.b23e02b8.chunk.js.map",
@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/cv-leo/static/js/runtime~main.9f8f3ab3.js.map",
   "static/media/avatar.png": "/cv-leo/static/media/avatar.64a211b3.png",
   "static/media/About.css": "/cv-leo/static/media/fondAbout.a3ce3be0.jpg",
-  "static/css/main.79ad3f80.chunk.css.map": "/cv-leo/static/css/main.79ad3f80.chunk.css.map",
   "static/css/1.874b0815.chunk.css.map": "/cv-leo/static/css/1.874b0815.chunk.css.map",
+  "static/css/main.79ad3f80.chunk.css.map": "/cv-leo/static/css/main.79ad3f80.chunk.css.map",
   "index.html": "/cv-leo/index.html",
-  "precache-manifest.948380363bcf52c36c1ba0b4b4c102e5.js": "/cv-leo/precache-manifest.948380363bcf52c36c1ba0b4b4c102e5.js",
+  "precache-manifest.ac56288271b9304c3ab4062e5fc09629.js": "/cv-leo/precache-manifest.ac56288271b9304c3ab4062e5fc09629.js",
   "service-worker.js": "/cv-leo/service-worker.js"
 }
