@@ -11,8 +11,8 @@ root.render(<App/>);
 window.addEventListener('resize', start);
 
 function start(){
-    var height = $("#navigation").outerHeight();
-    var heightWindow = $(window).outerHeight();
+    const height = $("#navigation").outerHeight();
+    const heightWindow = $(window).outerHeight();
     console.log(height)
     if(height > 0)
     {

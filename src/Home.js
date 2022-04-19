@@ -1,7 +1,8 @@
+import React from 'react';
 import avatar from "./images/avatar.png"
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faGitlab, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Home(){
