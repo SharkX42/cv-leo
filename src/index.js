@@ -17,8 +17,8 @@ function start(){
     if(height > 0)
     {
         $("#main").css("margin-top", height);
-        $("#home").css("height", heightWindow - height - 100);
-        $("#picture").css("height", (heightWindow - height - 100)/2);
+        $("#home").css("height", heightWindow - height);
+        $("#picture").css("height", (heightWindow - height)/2);
     }
 }
 

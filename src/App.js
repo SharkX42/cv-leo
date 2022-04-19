@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./Header";
 import Home from "./Home";
+import About from "./About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Header/>
         <div id={"main"}>
             <Home/>
+            <About/>
         </div>
     </div>
   );

@@ -1,6 +1,8 @@
 .flexLine{
     display: flex;
     padding-top: 5vw;
+    padding-bottom: 5vw;
+    align-items: center;
 }
 
 #picture{
@@ -23,7 +25,7 @@
 }
 
 #desc{
-    font-size: clamp(20px, 2vw, 120px);
+    font-size: clamp(15px, 2vw, 100px);
 }
 
 span{
@@ -34,6 +36,8 @@ span{
 #separation{
     height: 2px;
     background-color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #icons{
@@ -44,7 +48,7 @@ span{
 }
 
 #icons svg{
-    font-size: clamp(20px, 2vw, 120px);
+    font-size: clamp(15px, 2vw, 120px);
     padding-right: 25px;
     padding-left: 25px;
     color: transparent;
@@ -52,8 +56,8 @@ span{
 }
 
 #icons svg:hover{
-    color: red !important;
-    filter: drop-shadow(0 0 1rem red);
+    color: black !important;
+    filter: drop-shadow(0 0 1rem black);
 }
 
 p {
@@ -73,7 +77,7 @@ p span {
 }
 
 #second {
-    color: red;
+    color: black;
 }
 
 #icons::after {
@@ -85,7 +89,7 @@ p span {
     top: 0;
     left: 0;
     transform: translateX(-100%);
-    background: #ff0202;
+    background: white;
     animation: slide-in 0.75s 0.3s ease-out forwards,
     slide-out 0.75s 1.3s ease-out forwards;
 }
@@ -111,7 +115,6 @@ p span {
     .flexLine{
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
     }
 
     #me{
@@ -123,11 +126,11 @@ p span {
     }
 
     #icons svg {
-        font-size: clamp(20px, 8vw, 120px)
+        font-size: clamp(30px, 8vw, 100px)
     }
 
     #picture img{
         width: auto;
-        height: 100%;
+        height: 80%;
     }
 }

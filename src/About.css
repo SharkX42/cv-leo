@@ -1,0 +1,12 @@
+#about{
+    background-image: url("./images/fondAbout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5vw;
+}
+
+#cont{
+    padding: 2vw;
+    background-color: #0a3872d9 !important;
+    border-radius: 30px;
+}

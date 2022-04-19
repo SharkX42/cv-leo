@@ -1,8 +1,8 @@
 import avatar from "./images/avatar.png"
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faGitlab, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Home(){
     return(
@@ -30,6 +30,7 @@ function Home(){
                 <div id={"icons"}>
                     <FontAwesomeIcon icon={faGithub}  />
                     <FontAwesomeIcon icon={faLinkedinIn}  />
+                    <FontAwesomeIcon icon={faPhone} />
                 </div>
             </div>
         </div>
