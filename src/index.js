@@ -18,7 +18,6 @@ function start(){
     {
         $("#main").css("margin-top", height);
         $("#home").css("height", heightWindow - height);
-        $("#picture").css("height", (heightWindow - height)/2);
     }
 }
 

@@ -128,9 +128,4 @@ p span {
     #icons svg {
         font-size: clamp(30px, 8vw, 100px)
     }
-
-    #picture img{
-        width: auto;
-        height: 80%;
-    }
 }
