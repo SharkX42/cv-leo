@@ -17,7 +17,7 @@ function Home(){
                       Léo
                     </span>
                     <span id={"second"}>
-                      Delabre
+                      Delabre Test
                     </span>
                 </p>
                 <div id={"desc"}>
