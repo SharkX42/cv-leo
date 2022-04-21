@@ -1,0 +1,32 @@
+{
+  "id": "0",
+  "name": "CV_LEO",
+  "content" :[
+    {
+      "id": "1",
+      "name": "Formation",
+      "content" :[
+        {
+          "picture": "avatar.png",
+          "title" : "ISIMA",
+          "dateFirst": "Septembre 2019",
+          "dateEnd": "Aujourd'hui"
+        },
+        {
+          "picture": "avatar.png",
+          "title" : "Baccalauréat"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Expériences Professionnelles",
+      "content" :[
+        {
+          "picture": "avatar.png",
+          "title" : "CGI"
+        }
+      ]
+    }
+  ]
+}

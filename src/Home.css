@@ -111,21 +111,25 @@ p span {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 990px) and (orientation : portrait) {
     .flexLine{
         flex-direction: column;
         justify-content: flex-start;
     }
 
     #me{
-        flex-grow: 1;
+        flex-grow: 2;
     }
 
     #picture{
         width: 100%;
+        flex-grow: 3;
     }
+}
+
+@media (max-width: 990px) {
 
     #icons svg {
-        font-size: clamp(30px, 8vw, 100px)
+        font-size: clamp(30px, 8vw, 50px);
     }
 }

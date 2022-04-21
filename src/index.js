@@ -10,6 +10,7 @@ root.render(<App/>);
 
 
 function start(){
+    console.log("start");
     const height = $("#navigation").outerHeight();
     const heightWindow = $(window).outerHeight();
     if(height > 0)
@@ -18,6 +19,8 @@ function start(){
         $("#home").css("height", heightWindow - height);
     }
 }
+
+$(window).on( "orientationchange", start());
 
 $(document).ready(function() {
     start();
