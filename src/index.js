@@ -8,22 +8,29 @@ import $ from 'jquery';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App/>);
 
+let initialHeightWindow = 0;
 
 function start(){
-    console.log("start");
     const height = $("#navigation").outerHeight();
-    console.log("height nav = " + height);
     const heightWindow = window.innerHeight;
-    console.log("height windows inner = " + heightWindow);
-    if(height > 0)
+    if(Math.abs(initialHeightWindow - heightWindow) > 100)
     {
-        $("#main").css("margin-top", height);
-        $("#home").css("height", heightWindow - height);
+        initialHeightWindow = heightWindow;
+        if(height > 0)
+        {
+            $("#main").css("margin-top", height);
+            $("#home").css("height", heightWindow - height);
+        }
     }
+}
+
+window.onload = function () {
+    window.scrollTo(0, 0);
 }
 
 window.addEventListener('resize', start);
 
 $(document).ready(function() {
     start();
+    initialHeightWindow = window.innerHeight;
 });
