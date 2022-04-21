@@ -1,8 +1,8 @@
 .flexLine{
     display: flex;
+    align-items: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
-    align-items: center;
 }
 
 #picture{
@@ -57,7 +57,7 @@ span{
 
 #icons svg:hover{
     color: black !important;
-    filter: drop-shadow(0 0 1rem black);
+    filter: drop-shadow(0 0 1px black);
 }
 
 p {
@@ -118,18 +118,26 @@ p span {
     }
 
     #me{
-        flex-grow: 2;
+        flex-grow: 1;
     }
 
     #picture{
-        width: 100%;
         flex-grow: 3;
+        max-width: 80%;
+        min-width: 60%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
-}
-
-@media (max-width: 990px) {
 
     #icons svg {
         font-size: clamp(30px, 8vw, 50px);
+    }
+
+}
+
+@media (max-width: 990px) and (orientation : landscape) {
+    #icons svg {
+        font-size: clamp(30px, 8vh, 50px);
     }
 }
