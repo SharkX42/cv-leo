@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fb9a3ba6fbac2db726b6",
-    "url": "/cv-leo/static/css/main.79ad3f80.chunk.css"
+    "revision": "120823f0c939b99f7dcf",
+    "url": "/cv-leo/static/css/main.39ac7d20.chunk.css"
   },
   {
-    "revision": "fb9a3ba6fbac2db726b6",
-    "url": "/cv-leo/static/js/main.fb9a3ba6.chunk.js"
+    "revision": "120823f0c939b99f7dcf",
+    "url": "/cv-leo/static/js/main.120823f0.chunk.js"
   },
   {
-    "revision": "b23e02b8ec6d08c00181",
-    "url": "/cv-leo/static/css/1.874b0815.chunk.css"
+    "revision": "b0c597b3a7fecc7d99ce",
+    "url": "/cv-leo/static/css/1.c418210e.chunk.css"
   },
   {
-    "revision": "b23e02b8ec6d08c00181",
-    "url": "/cv-leo/static/js/1.b23e02b8.chunk.js"
+    "revision": "b0c597b3a7fecc7d99ce",
+    "url": "/cv-leo/static/js/1.b0c597b3.chunk.js"
   },
   {
     "revision": "9f8f3ab36eb9e1808c77",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/fondAbout.a3ce3be0.jpg"
   },
   {
-    "revision": "f7004e54706285d6f609271e4d2a9a42",
+    "revision": "530602d07ea9bd83093b8b9ec8df4cf6",
     "url": "/cv-leo/index.html"
   }
 ];
