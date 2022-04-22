@@ -1,8 +1,6 @@
 .flexLine{
     display: flex;
     align-items: center;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
 }
 
 #picture{
@@ -130,8 +128,15 @@ p span {
         padding-right: 0;
     }
 
+    #icons{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     #icons svg {
         font-size: clamp(30px, 8vw, 50px);
+        padding-right: 0;
+        padding-left: 0;
     }
 
 }

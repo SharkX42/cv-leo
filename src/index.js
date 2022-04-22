@@ -18,8 +18,13 @@ function start(){
         initialHeightWindow = heightWindow;
         if(height > 0)
         {
-            $("#main").css("margin-top", height);
-            $("#home").css("height", heightWindow - height);
+            $("#home").css("padding-top", height);
+            $("#about").css("padding-top", height);
+            $("#about").css("padding-bottom", height);
+            $("#myCareer").css("padding-top", height);
+            $("#myCareer").css("padding-bottom", height);
+            $("#home").css("height", heightWindow);
+            $("#default").addClass("active");
         }
     }
 }
