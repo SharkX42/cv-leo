@@ -4,9 +4,10 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faDownload } from '@fortawesome/free-solid-svg-icons'
+import cv from './files/test.pdf'
 
 function download(){
-    fetch('https://cdn.radiofrance.fr/s3/cruiser-production/2022/01/860bbad7-73da-43a8-897d-cfbe8951b40d/870x489_logo2022_transparent.jpg')
+    fetch(cv)
         .then(resp => resp.blob())
         .then(blob => {
             const url = window.URL.createObjectURL(blob);
