@@ -25,7 +25,6 @@ function start(){
             $("#myCareer").css("padding-top", height);
             $("#myCareer").css("padding-bottom", height);
             $("#home").css("height", heightWindow);
-            $("#default").addClass("active");
             $(".fa-download").addClass("fa-bounce");
         }
     }

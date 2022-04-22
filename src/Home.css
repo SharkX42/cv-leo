@@ -36,12 +36,14 @@
     border-radius: 100px;
     color: #0a3872d9;
     font-size: clamp(15px, 1vw, 100px);
+    transition: color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
 }
 
 #me button:hover{
     color: white;
     background-color: black;
-    border: solid white 1px;
+    border: solid black 1px;
 }
 
 #me button svg{
@@ -72,17 +74,24 @@ span{
     overflow: hidden;
 }
 
-#icons svg{
+#icons a{
     font-size: clamp(15px, 2vw, 120px);
-    padding-right: 25px;
-    padding-left: 25px;
     color: transparent;
     animation: txt-appearance 0s 1.25s forwards;
+}
+
+#icons svg{
+    transition: color .3s ease-in-out;
 }
 
 #icons svg:hover{
     color: black !important;
     filter: drop-shadow(0 0 1px black);
+}
+
+#icons a{
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 p {

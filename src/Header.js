@@ -8,7 +8,7 @@ function Header(){
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="me-auto" defaultActiveKey={"#home"}>
                         <Nav.Link href="#home" id={"default"}>Accueil</Nav.Link>
                         <Nav.Link href="#about">A propos de moi</Nav.Link>
                         <Nav.Link href="#myCareer">Mon parcours</Nav.Link>

@@ -4,7 +4,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faDownload } from '@fortawesome/free-solid-svg-icons'
-import cv from './files/test.pdf'
+import cv from './files/CV2021.pdf'
 
 function download(){
     fetch(cv)
@@ -51,9 +51,15 @@ function Home(){
                 <div id={"separation"}></div>
 
                 <div id={"icons"}>
-                    <FontAwesomeIcon icon={faGithub}  />
-                    <FontAwesomeIcon icon={faLinkedinIn}  />
-                    <FontAwesomeIcon icon={faPhone} />
+                    <a href={"https://github.com/SharkX42"} target={"_blank"}>
+                        <FontAwesomeIcon icon={faGithub}  />
+                    </a>
+                    <a href={"https://fr.linkedin.com/in/l%C3%A9o-delabre-4535911ba"}>
+                        <FontAwesomeIcon icon={faLinkedinIn}  />
+                    </a>
+                    <a href={"tel:0785629700"}>
+                        <FontAwesomeIcon icon={faPhone} />
+                    </a>
                 </div>
             </div>
         </div>
