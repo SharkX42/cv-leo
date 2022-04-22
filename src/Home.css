@@ -16,12 +16,35 @@
 
 #me{
     width: 70%;
+    height: 60%;
     padding-right: 5vw;
     padding-left: 5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    align-items: center;
+}
+
+#me button{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    border: solid #0a3872d9 1px;
+    border-radius: 100px;
+    color: #0a3872d9;
+}
+
+#me button:hover{
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+}
+
+#me button svg{
+    padding: 5px;
 }
 
 #desc{
@@ -34,6 +57,7 @@ span{
 }
 
 #separation{
+    width: 100%;
     height: 2px;
     background-color: white;
     margin-top: 5vh;
