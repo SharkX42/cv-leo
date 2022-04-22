@@ -35,6 +35,7 @@
     border: solid #0a3872d9 1px;
     border-radius: 100px;
     color: #0a3872d9;
+    font-size: clamp(15px, 1vw, 100px);
 }
 
 #me button:hover{
@@ -145,10 +146,13 @@ p span {
         flex-grow: 1;
     }
 
+    #me button{
+        width: 80%;
+    }
+
     #picture{
         flex-grow: 3;
-        max-width: 80%;
-        min-width: 60%;
+        width: 40%;
         height: auto;
         padding-left: 0;
         padding-right: 0;
@@ -157,6 +161,7 @@ p span {
     #icons{
         flex-wrap: wrap;
         justify-content: space-between;
+        width: 100%;
     }
 
     #icons svg {
@@ -169,6 +174,10 @@ p span {
 
 @media (max-width: 990px) and (orientation : landscape) {
     #icons svg {
-        font-size: clamp(30px, 8vh, 50px);
+        font-size: clamp(30px, 6vh, 50px);
+    }
+
+    #me button{
+        width: 60%;
     }
 }
