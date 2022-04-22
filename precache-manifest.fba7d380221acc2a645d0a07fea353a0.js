@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7299931569d6eb4ece0b",
-    "url": "/cv-leo/static/css/main.a5319264.chunk.css"
+    "revision": "801a549a8dd8095e5d66",
+    "url": "/cv-leo/static/css/main.73333318.chunk.css"
   },
   {
-    "revision": "7299931569d6eb4ece0b",
-    "url": "/cv-leo/static/js/main.72999315.chunk.js"
+    "revision": "801a549a8dd8095e5d66",
+    "url": "/cv-leo/static/js/main.801a549a.chunk.js"
   },
   {
     "revision": "e4cf3992709a9087d83a",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/fondAbout.a3ce3be0.jpg"
   },
   {
-    "revision": "19c6a98b0f707b65b7271c1172033951",
+    "revision": "61d61bc1f6b819f71be5395a67c41667",
     "url": "/cv-leo/index.html"
   }
 ];
