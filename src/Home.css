@@ -169,8 +169,8 @@ p span {
 
     #icons{
         flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
+        justify-content: space-around;
+        width: 80vw;
     }
 
     #icons svg {
@@ -184,6 +184,10 @@ p span {
 @media (max-width: 990px) and (orientation : landscape) {
     #icons svg {
         font-size: clamp(30px, 6vh, 50px);
+    }
+
+    #me{
+        height: 100%;
     }
 
     #me button{

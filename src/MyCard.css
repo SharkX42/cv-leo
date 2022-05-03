@@ -8,6 +8,7 @@
 .topicName{
     text-align: center;
     font-size: clamp(20px, 1vw, 100px);
+    padding-bottom: 20px;
 }
 
 .spanName{

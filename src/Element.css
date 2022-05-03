@@ -1,12 +1,27 @@
 #pictureElem{
     width: 6vw;
     margin-right: 10px;
-}
-
-#pictureElem img{
-    width: 6vw;
+    border: solid 0.5px black;
+    padding: 4px;
+    height: fit-content;
 }
 
 #element{
     display: flex;
+}
+
+#contentElem{
+    flex: 1;
+}
+
+#separationElement{
+    height: 0.5px;
+    background-color: #c4c4c4;
+    margin: 20px;
+}
+
+@media (max-width: 990px){
+    #pictureElem{
+        width: 15vw;
+    }
 }

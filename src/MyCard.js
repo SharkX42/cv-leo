@@ -13,6 +13,8 @@ function MyCard({name, content}) {
             dateFirst={element.dateFirst}
             dateEnd={element.dateEnd}
             details={element.details}
+            index={index}
+            length={content.length}
         />
     )
 

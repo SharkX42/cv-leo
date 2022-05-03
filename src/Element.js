@@ -9,7 +9,7 @@ function importAll(r) {
 
 const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
-function Element({title, picture, dateFirst, dateEnd, details}) {
+function Element({title, picture, dateFirst, dateEnd, details, index, length}) {
     return (
         <div>
             <div id={"element"}>
@@ -22,7 +22,8 @@ function Element({title, picture, dateFirst, dateEnd, details}) {
                     <div>{details}</div>
                 </div>
             </div>
-            <div id={"separationElement"}></div>
+            {index != length - 1 &&
+            <div id={"separationElement"}></div>}
         </div>
     )
 }
