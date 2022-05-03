@@ -1,3 +1,12 @@
 #pictureElem{
-    width: 50px;
+    width: 6vw;
+    margin-right: 10px;
+}
+
+#pictureElem img{
+    width: 6vw;
+}
+
+#element{
+    display: flex;
 }

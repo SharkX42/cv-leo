@@ -9,13 +9,20 @@ function importAll(r) {
 
 const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
-function Element({title, picture}) {
+function Element({title, picture, dateFirst, dateEnd, details}) {
     return (
-        <div id={"element"}>
-            <div id={"pictureElem"}>
-                <img src={images[picture]} alt={picture}/>
+        <div>
+            <div id={"element"}>
+                <div id={"pictureElem"}>
+                    <img src={images[picture]} alt={picture}/>
+                </div>
+                <div id={"contentElem"}>
+                    <div>{title}</div>
+                    <div>{dateFirst} - {dateEnd}</div>
+                    <div>{details}</div>
+                </div>
             </div>
-            <div>{title}</div>
+            <div id={"separationElement"}></div>
         </div>
     )
 }

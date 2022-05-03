@@ -10,12 +10,17 @@ function MyCard({name, content}) {
             key={`${element}-${index}`}
             title={element.title}
             picture={element.picture}
+            dateFirst={element.dateFirst}
+            dateEnd={element.dateEnd}
+            details={element.details}
         />
     )
 
     return (
         <div className={"myCard"}>
-            <div className={"topicName"}>{name}</div>
+            <div className={"topicName"}>
+                <span className={"spanName"}>{name}</span>
+            </div>
             {htmlElements}
         </div>
     )

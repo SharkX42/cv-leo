@@ -9,3 +9,13 @@
     text-align: center;
     font-size: clamp(20px, 1vw, 100px);
 }
+
+.spanName{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    border-bottom: solid #0a3872d9 2px;
+    color: black;
+    text-transform: uppercase;
+
+}

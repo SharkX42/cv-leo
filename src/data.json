@@ -7,14 +7,16 @@
       "name": "Formation",
       "content" :[
         {
-          "picture": "avatar.png",
+          "picture": "isima.png",
           "title" : "ISIMA",
           "dateFirst": "Septembre 2019",
-          "dateEnd": "Aujourd'hui"
+          "dateEnd": "Aujourd'hui",
+          "details": "Vita est illis semper in fuga uxoresque mercenariae conductae ad tempus ex pacto atque, ut sit species matrimonii, dotis nomine futura coniunx hastam et tabernaculum offert marito, post statum diem si id elegerit discessura, et incredibile est quo ardore apud eos in venerem uterque solvitur sexus."
         },
         {
           "picture": "avatar.png",
-          "title" : "Baccalauréat"
+          "title" : "Baccalauréat",
+          "dateEnd": "2017"
         }
       ]
     },
@@ -23,8 +25,10 @@
       "name": "Expériences Professionnelles",
       "content" :[
         {
-          "picture": "avatar.png",
-          "title" : "CGI"
+          "picture": "cgi.jpg",
+          "title" : "CGI",
+          "dateFirst": "Septembre 2021",
+          "dateEnd": "Aujourd'hui"
         }
       ]
     }
