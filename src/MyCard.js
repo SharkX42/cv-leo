@@ -10,8 +10,10 @@ function MyCard({name, content}) {
             key={`${element}-${index}`}
             title={element.title}
             picture={element.picture}
+            location={element.location}
             dateFirst={element.dateFirst}
             dateEnd={element.dateEnd}
+            description={element.description}
             details={element.details}
             index={index}
             length={content.length}

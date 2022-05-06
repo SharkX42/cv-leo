@@ -1,9 +1,11 @@
 #pictureElem{
-    width: 6vw;
-    margin-right: 10px;
+    width: 8vw;
+    margin-right: 2vw;
     border: solid 0.5px black;
     padding: 4px;
-    height: fit-content;
+    height: 8vw;
+    display: flex;
+    align-items: center;
 }
 
 #element{
@@ -20,8 +22,74 @@
     margin: 20px;
 }
 
+#titleElem{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.datelocation{
+    width: 20vw;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#element svg{
+    padding-right: 10px;
+    color: #0a3872d9;
+}
+
+#descriptionElem{
+    font-style: italic;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#flexDetails{
+    display: flex;
+}
+
 @media (max-width: 990px){
     #pictureElem{
         width: 15vw;
+        height: 15vw;
+        margin-right: 0;
+    }
+
+    #contentElem{
+        width: 100%;
+    }
+
+    #element{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .datelocation{
+        width: inherit;
+        flex-direction: row !important;
+        align-items: center !important;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #titleElem{
+        text-align: center;
+    }
+
+    #descriptionElem{
+        padding-top: 10px;
+        padding-left: 0;
+        text-align: center;
     }
 }

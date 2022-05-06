@@ -8,15 +8,19 @@
       "content" :[
         {
           "picture": "isima.png",
-          "title" : "ISIMA",
+          "title" : "Ecole d'ingénieur en Informatique",
+          "location": "63170, Aubière",
           "dateFirst": "Septembre 2019",
           "dateEnd": "Aujourd'hui",
-          "details": "Vita est illis semper in fuga uxoresque mercenariae conductae ad tempus ex pacto atque, ut sit species matrimonii, dotis nomine futura coniunx hastam et tabernaculum offert marito, post statum diem si id elegerit discessura, et incredibile est quo ardore apud eos in venerem uterque solvitur sexus."
+          "description": "Elève ingénieur à l'Institut Supérieur d'Informatique, de Modélisation et de leurs Applications - ISIMA",
+          "details": "Filière Génie Logiciel et Systèmes d'informations"
         },
         {
-          "picture": "avatar.png",
+          "picture": "bac.jpg",
           "title" : "Baccalauréat",
-          "dateEnd": "2017"
+          "location": "43000, Le Puy-en-Velay",
+          "dateEnd": "2017",
+          "description": "Bac Scientifique mention bien- Lycée Simone Weil"
         }
       ]
     },
@@ -27,8 +31,11 @@
         {
           "picture": "cgi.jpg",
           "title" : "CGI",
+          "location": "63000, CLermont-Ferrand",
           "dateFirst": "Septembre 2021",
-          "dateEnd": "Aujourd'hui"
+          "dateEnd": "Aujourd'hui",
+          "description": "Alternant développpeur Java",
+          "details": "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse."
         }
       ]
     }

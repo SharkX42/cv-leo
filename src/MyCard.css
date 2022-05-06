@@ -3,6 +3,7 @@
     border: solid #0a3872d9 1px;
     border-radius: 30px;
     margin-bottom: 5vh;
+    color: #222;
 }
 
 .topicName{
@@ -19,4 +20,10 @@
     color: black;
     text-transform: uppercase;
 
+}
+
+@media (max-width: 990px){
+    .myCard{
+        padding: 3vw;
+    }
 }
