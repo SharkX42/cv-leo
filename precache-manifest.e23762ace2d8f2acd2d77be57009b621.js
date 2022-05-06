@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "361dfea3a035cf77ac00",
-    "url": "/cv-leo/static/css/main.a96047b9.chunk.css"
+    "revision": "ad908d49dd45e745a486",
+    "url": "/cv-leo/static/css/main.93cb00fe.chunk.css"
   },
   {
-    "revision": "361dfea3a035cf77ac00",
-    "url": "/cv-leo/static/js/main.361dfea3.chunk.js"
+    "revision": "ad908d49dd45e745a486",
+    "url": "/cv-leo/static/js/main.ad908d49.chunk.js"
   },
   {
-    "revision": "61f91e865a70b0b8ce0d",
-    "url": "/cv-leo/static/css/1.c5fc5cfb.chunk.css"
+    "revision": "3d7c83db8f094b4ab40a",
+    "url": "/cv-leo/static/css/1.896bfb80.chunk.css"
   },
   {
-    "revision": "61f91e865a70b0b8ce0d",
-    "url": "/cv-leo/static/js/1.61f91e86.chunk.js"
+    "revision": "3d7c83db8f094b4ab40a",
+    "url": "/cv-leo/static/js/1.3d7c83db.chunk.js"
   },
   {
     "revision": "9f8f3ab36eb9e1808c77",
@@ -32,11 +32,15 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/fondAbout.a3ce3be0.jpg"
   },
   {
+    "revision": "8666f1e2f13d8bfc348d2491b19f060d",
+    "url": "/cv-leo/static/media/bac.8666f1e2.jpg"
+  },
+  {
     "revision": "06854471d566e01ba438210e8d6f735e",
     "url": "/cv-leo/static/media/photo2-modified.06854471.png"
   },
   {
-    "revision": "e40ebb5c1f1d371a9ea44bf0350a21fb",
+    "revision": "7eefeefc0b5afae1af7b53b73f8c4d55",
     "url": "/cv-leo/index.html"
   }
 ];
