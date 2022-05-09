@@ -6,3 +6,12 @@
     width: 100%;
     justify-content: center;
 }
+
+.elementBody{
+    padding: 5vw;
+}
+
+.elementBodyPadding{
+    padding: 2vw;
+    border-radius: 30px;
+}

@@ -1,0 +1,64 @@
+#containerContact{
+    border: solid white 1px;
+}
+
+#contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+    margin-bottom: 20px;
+}
+
+#contact span{
+    padding-left: 0;
+}
+
+#flexContact{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#flexContact div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#flexContact a{
+    text-decoration: none;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+#flexContact a:hover{
+    background-color: white;
+    color: #0a3872;
+}
+
+#flexContact a svg, .flexLineContact svg{
+    padding-right: 10px;
+}
+
+.flexLineContact{
+    display: flex;
+}
+
+@media (max-width: 990px) and (orientation : portrait) {
+    #flexContact{
+        flex-direction: column;
+    }
+
+    #flexContact a{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

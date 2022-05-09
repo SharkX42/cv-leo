@@ -16,7 +16,7 @@
 
 #me{
     width: 70%;
-    height: 60%;
+    height: auto;
     padding-right: 5vw;
     padding-left: 5vw;
     display: flex;
@@ -35,6 +35,7 @@
     border: solid #0a3872d9 1px;
     border-radius: 100px;
     color: #0a3872d9;
+    background-color: white;
     font-size: clamp(15px, 1vw, 100px);
     transition: color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
