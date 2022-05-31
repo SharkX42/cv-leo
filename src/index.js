@@ -37,3 +37,11 @@ $(document).ready(function() {
     start();
     initialHeightWindow = window.innerHeight;
 });
+
+$(function($) {
+    $('#home').on('scroll', function() {
+        if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+            console.log('end reached');
+        }
+    })
+});
