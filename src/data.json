@@ -35,7 +35,34 @@
           "dateFirst": "Septembre 2021",
           "dateEnd": "Aujourd'hui",
           "description": "Alternant développpeur Java",
-          "details": "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse."
+          "details": "Développement d'évolutions et corrections de bugs sur les logiciels de l'Agence de Services et de Paiement (ASP)"
+        },
+        {
+          "picture": "nexus.png",
+          "title": "Nexus France",
+          "location": "03700, Bellerive-sur-Allier",
+          "dateFirst": "Avril 2021",
+          "dateEnd": "Août 2021",
+          "description": "Stagiaire développeur d'applications web",
+          "details": "Développement de modules en Typescript et C# sur le logiciel de santé Emed et la version mobile e-Live"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Projets",
+      "content" :[
+        {
+          "picture": "lexiquizz.jpg",
+          "title" : "Projet tutoré 2ème année ISIMA",
+          "description": "LexiQuiZZ",
+          "details": "Développement d'une interface de jeu pour"
+        },
+        {
+          "picture": "lexiquizz.jpg",
+          "title" : "TripAdvisor Lite",
+          "description": "Projet ",
+          "details": "Développement d'évolutions et corrections de bugs sur les logiciels de l'Agence de Services et de Paiement (ASP)"
         }
       ]
     }
