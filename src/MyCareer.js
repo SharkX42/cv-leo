@@ -16,7 +16,7 @@ function MyCareer() {
     );
 
     return (
-        <div id={"myCareer"}>
+        <div id={"myCareer"} className={"elementBody"}>
             <h1>Mon parcours</h1>
             {htmlCards}
         </div>

@@ -21,7 +21,7 @@ function MyCard({name, content}) {
     )
 
     return (
-        <div className={"myCard"}>
+        <div className={"myCard elementBodyPadding"}>
             <div className={"topicName"}>
                 <span className={"spanName"}>{name}</span>
             </div>

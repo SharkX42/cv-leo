@@ -20,12 +20,9 @@ function start(){
         {
             $("#home").css("padding-top", height*2);
             $("#home").css("padding-bottom", height);
-            $("#about").css("padding-top", height);
-            $("#about").css("padding-bottom", height);
-            $("#myCareer").css("padding-top", height);
-            $("#myCareer").css("padding-bottom", height);
             $("#home").css("height", heightWindow);
-            $(".fa-download").addClass("fa-bounce");
+            $(".elementBody").css("padding-top", height);
+            $(".elementBody").css("padding-bottom", height);
         }
     }
 }
@@ -39,4 +36,12 @@ window.addEventListener('resize', start);
 $(document).ready(function() {
     start();
     initialHeightWindow = window.innerHeight;
+});
+
+$(function($) {
+    $('#home').on('scroll', function() {
+        if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+            console.log('end reached');
+        }
+    })
 });
