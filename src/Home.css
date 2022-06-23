@@ -136,7 +136,7 @@ p span {
 }
 @keyframes slide-out {
     100% {
-        transform: translateX(100%)
+        transform: translateX(110%)
     }
 }
 

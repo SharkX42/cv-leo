@@ -11,10 +11,15 @@ function MyCard({name, content}) {
             title={element.title}
             picture={element.picture}
             location={element.location}
+            link={element.link}
+            linkGit={element.linkGit}
             dateFirst={element.dateFirst}
             dateEnd={element.dateEnd}
             description={element.description}
             details={element.details}
+            technos={element.technos}
+            color={element.color}
+            list={element.list}
             index={index}
             length={content.length}
         />

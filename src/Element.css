@@ -31,6 +31,13 @@
 .flex{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexTech{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .datelocation{
@@ -52,6 +59,23 @@
 
 #flexDetails{
     display: flex;
+    padding-bottom: 10px;
+}
+
+#techno{
+    color: white;
+    margin-right: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 20px;;
+}
+
+#list span{
+    padding: 0px;
+}
+
+#keySpan{
+    font-weight: bold;
 }
 
 @media (max-width: 990px){
@@ -92,4 +116,13 @@
         padding-left: 0;
         text-align: center;
     }
+
+    #techno{
+        margin-bottom: 4px;
+    }
+
+    .flexTech{
+        justify-content: center;
+    }
+
 }

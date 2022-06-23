@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Element.css"
-import {faCalendarDays, faLocationDot, faCircleArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faCalendarDays, faLocationDot, faCircleArrowRight, faLink, faCode} from '@fortawesome/free-solid-svg-icons'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function importAll(r) {
@@ -11,7 +12,25 @@ function importAll(r) {
 
 const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
-function Element({title, picture, location, dateFirst, dateEnd, description, details, index, length}) {
+function Element({title, picture, location, link, linkGit, dateFirst, dateEnd, description, details, technos, color, list, index, length}) {
+
+    let usedTechnos;
+    if(technos !== undefined) {
+        usedTechnos = technos.map((element, index) =>
+            <div key={`${element}-${index}`} id={"techno"} style={{backgroundColor : color, border: "solid 1px" + color}}>{element}</div>
+        );
+    }
+
+    let listObject;
+    if(list !== undefined) {
+        listObject = list.map((element, index) =>
+            <li key={`${element}-${index}`} id={"list"}>
+                <span id={"keySpan"}>{element.key}</span>
+                <span>{element.value}</span>
+            </li>
+        );
+    }
+
     return (
         <div>
             <div id={"element"}>
@@ -22,16 +41,32 @@ function Element({title, picture, location, dateFirst, dateEnd, description, det
                     <div id={"titleElem"}>{title}</div>
                     <div>
                         <div className={"flex"}>
+                            {(dateEnd !== undefined) &&
                             <div className={"flex datelocation"}>
-                                <FontAwesomeIcon icon={faCalendarDays} />
+                                <FontAwesomeIcon icon={faCalendarDays}/>
                                 {dateEnd !== undefined && dateFirst !== undefined && <div>{dateFirst} - {dateEnd}</div>}
                                 {dateEnd !== undefined && dateFirst === undefined && <div>{dateEnd}</div>}
 
                             </div>
+                            }
+                            {location !== undefined &&
                             <div className={"flex datelocation"}>
-                                <FontAwesomeIcon icon={faLocationDot} />
+                                <FontAwesomeIcon icon={faLocationDot}/>
                                 <div>{location}</div>
                             </div>
+                            }
+                            {link !== undefined &&
+                            <div className={"flex datelocation"}>
+                                <FontAwesomeIcon icon={faLink}/>
+                                <a href={link} target={"_blank"}>{link}</a>
+                            </div>
+                            }
+                            {linkGit !== undefined &&
+                            <div className={"flex datelocation"}>
+                                <FontAwesomeIcon icon={faGithub}/>
+                                <a href={linkGit} target={"_blank"}>{linkGit}</a>
+                            </div>
+                            }
                         </div>
                         <div id={"descriptionElem"}>{description}</div>
                         {details !== undefined &&
@@ -41,6 +76,17 @@ function Element({title, picture, location, dateFirst, dateEnd, description, det
                             </div>
                             <div>{details}</div>
                         </div>
+                        }
+                        {technos !== undefined &&
+                            <div className={"flexTech"}>
+                                <FontAwesomeIcon icon={faCode}/>
+                                {usedTechnos}
+                            </div>
+                        }
+                        {list !== undefined &&
+                            <ul>
+                                {listObject}
+                            </ul>
                         }
                     </div>
                 </div>

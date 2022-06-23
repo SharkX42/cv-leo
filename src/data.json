@@ -35,7 +35,9 @@
           "dateFirst": "Septembre 2021",
           "dateEnd": "Aujourd'hui",
           "description": "Alternant développpeur Java",
-          "details": "Développement d'évolutions et corrections de bugs sur les logiciels de l'Agence de Services et de Paiement (ASP)"
+          "details": "Développement d'évolutions et corrections de bugs sur les logiciels de l'Agence de Services et de Paiement (ASP)",
+          "technos": ["Java", "JEE","API REST", "API SOAP", "Swagger", "SQL", "PL/SQL", "HTML", "CSS", "Javascript", "Jenkins", "JUnit"],
+          "color" : "rgba(10, 56, 114, 0.71)"
         },
         {
           "picture": "nexus.png",
@@ -44,7 +46,20 @@
           "dateFirst": "Avril 2021",
           "dateEnd": "Août 2021",
           "description": "Stagiaire développeur d'applications web",
-          "details": "Développement de modules en Typescript et C# sur le logiciel de santé Emed et la version mobile e-Live"
+          "details": "Développement de modules en Typescript et C# sur le logiciel de santé Emed et la version mobile e-Live",
+          "technos": ["Typescript", "C#",".NET", "CSS", "HTML", "SQL"],
+          "color" : "rgba(10, 56, 114, 0.71)"
+        },
+        {
+          "picture": "soleil.png",
+          "title" : "Emplois saisonniers",
+          "location": "43, Haute-Loire",
+          "dateFirst": "Eté 2018",
+          "dateEnd": "Eté 2020",
+          "list": [
+            {"key" : "Crédit Agricole Loire Haute-Loire :", "value" : " Agent de guichet - Saint-Julien Chapteuil (Juillet 2020) et Unité Clients Contrats - Vals-près-le-Puy (Juillet 2019)"},
+            {"key" : "Gel 43 / Krill :", "value" : " Préparateur de commandes - Saint-Germain Laprade (Juin 2019 et Juin - Juillet 2018)"}
+          ]
         }
       ]
     },
@@ -53,16 +68,70 @@
       "name": "Projets",
       "content" :[
         {
-          "picture": "lexiquizz.jpg",
-          "title" : "Projet tutoré 2ème année ISIMA",
-          "description": "LexiQuiZZ",
-          "details": "Développement d'une interface de jeu pour"
+          "picture": "lexi.png",
+          "title" : "LexiQuiZZ",
+          "description": "Projet tutoré 2ème année ISIMA",
+          "details": "Développement d'une interface de jeux destinés aux enfants pour apprendre l'anglais",
+          "link" : "https://perso.isima.fr/~ledelabre/",
+          "technos": ["Javascript", "HTML", "CSS", "Angular JS", "Bootstrap"],
+          "color" : "rgba(10, 56, 114, 0.71)"
         },
         {
-          "picture": "lexiquizz.jpg",
+          "picture": "trip.jpg",
           "title" : "TripAdvisor Lite",
-          "description": "Projet ",
-          "details": "Développement d'évolutions et corrections de bugs sur les logiciels de l'Agence de Services et de Paiement (ASP)"
+          "description": "Application web mêlant front-end et back-end",
+          "details": "Développement d'une version Lite de TripAdvisor",
+          "technos": ["Typescript","HTML", "CSS", "React JS", "C#", ".NET"],
+          "color" : "rgba(10, 56, 114, 0.71)"
+        },
+        {
+          "picture": "football.png",
+          "title" : "Foot'App",
+          "description": "Application mobile développée en Kotlin",
+          "details": "Résultats de football (en direct) par championnat",
+          "linkGit": "https://github.com/Toufouyze/F2_delabre_juglair",
+          "technos": ["Kotlin", "API REST"],
+          "color" : "rgba(10, 56, 114, 0.71)"
+        },
+        {
+          "picture": "cv.png",
+          "title" : "Ce site",
+          "description": "CV version web",
+          "linkGit": "https://github.com/SharkX42/cv-leo",
+          "technos": ["Javascript", "HTML", "CSS","React JS", "JSON", "Docker"],
+          "color" : "rgba(10, 56, 114, 0.71)"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Compétences",
+      "content" :[
+        {
+          "title" : "Programmation",
+          "picture": "programmation.png",
+          "technos": ["Javascript", "Typescript", "HTML", "CSS", "SQL", "PL/SQL", "Java", "C#", "Kotlin", "C", "C++",
+            "Python",
+            "Bash"],
+          "color" : "rgba(10, 56, 114, 0.71)"
+        },
+        {
+          "picture": "bdd.png",
+          "title" : "Base de données",
+          "technos": ["MySQL","Oracle", "MongoDB"],
+          "color" : "black"
+        },
+        {
+          "picture": "framework.png",
+          "title" : "Framework",
+          "technos": ["React", "Angular", "Spring", ".NET", "Material UI","Bootstrap"],
+          "color" : "rgba(220, 29, 29, 0.71)"
+        },
+        {
+          "picture": "integration.png",
+          "title" : "Dev/Ops",
+          "technos": ["Git", "Docker", "Jenkins"],
+          "color" : "rgba(41, 159, 34, 0.7)"
         }
       ]
     }
