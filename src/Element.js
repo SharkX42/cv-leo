@@ -87,7 +87,7 @@ function Element({title, picture, location, link, linkGit, dateFirst, dateEnd, d
                             <div>
                                 <FontAwesomeIcon icon={faCircleArrowRight} />
                             </div>
-                            <div>{details}</div>
+                            <div className={"justifyText"}>{details}</div>
                         </div>
                         }
                         {technos !== undefined &&
@@ -97,7 +97,7 @@ function Element({title, picture, location, link, linkGit, dateFirst, dateEnd, d
                             </div>
                         }
                         {list !== undefined &&
-                            <ul>
+                            <ul className={"justifyText"}>
                                 {listObject}
                             </ul>
                         }

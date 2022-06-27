@@ -14,7 +14,7 @@ function download(){
             const a = document.createElement('a');
             a.style.display = 'none';
             a.href = url;
-            // the filename you want
+            // filename
             a.download = 'CV_DELABRE_LEO';
             document.body.appendChild(a);
             a.click();
