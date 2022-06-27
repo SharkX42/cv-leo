@@ -4,7 +4,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faDownload } from '@fortawesome/free-solid-svg-icons'
-import cv from './files/CV2021.pdf'
+import cv from './files/CV_DELABRE_LEO.pdf'
 
 function download(){
     fetch(cv)

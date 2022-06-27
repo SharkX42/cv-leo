@@ -150,7 +150,7 @@
           "picture": "gb.png",
           "title" : "Anglais",
           "list": [
-            {"value" : "TOEIC : 815"},
+            {"value" : "TOEIC : 815 (niveau B2)"},
             {"value" : "Voyage en Australie prévue d'octobre 2022 à décembre 2022"}
           ]
         },
@@ -158,7 +158,7 @@
           "picture": "es.png",
           "title" : "Espagnol",
           "list": [
-            {"value" : "Niveau intermédiaire"}
+            {"value" : "Niveau intermédiaire (B1)"}
           ]
         }
       ]

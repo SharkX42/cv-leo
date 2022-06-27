@@ -31,7 +31,6 @@
 .flex{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .flexTech{
@@ -100,6 +99,7 @@
         align-items: center !important;
         width: 100%;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .flex{
