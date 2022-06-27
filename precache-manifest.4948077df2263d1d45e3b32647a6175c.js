@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a16a4fa4a0aecbd2cbf8",
-    "url": "/cv-leo/static/css/main.6d0eb822.chunk.css"
+    "revision": "49afc8a89a97612dc122",
+    "url": "/cv-leo/static/css/main.5580d3a9.chunk.css"
   },
   {
-    "revision": "a16a4fa4a0aecbd2cbf8",
-    "url": "/cv-leo/static/js/main.a16a4fa4.chunk.js"
+    "revision": "49afc8a89a97612dc122",
+    "url": "/cv-leo/static/js/main.49afc8a8.chunk.js"
   },
   {
-    "revision": "4793263551f725e834c0",
-    "url": "/cv-leo/static/css/1.f94dc0c3.chunk.css"
+    "revision": "0e7929ab8f4f37d70101",
+    "url": "/cv-leo/static/css/1.69b1a815.chunk.css"
   },
   {
-    "revision": "4793263551f725e834c0",
-    "url": "/cv-leo/static/js/1.47932635.chunk.js"
+    "revision": "0e7929ab8f4f37d70101",
+    "url": "/cv-leo/static/js/1.0e7929ab.chunk.js"
   },
   {
     "revision": "9f8f3ab36eb9e1808c77",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/framework.c8884842.png"
   },
   {
+    "revision": "5b3a34b2d3ed23df14d8befc4a64439d",
+    "url": "/cv-leo/static/media/image.5b3a34b2.jpg"
+  },
+  {
     "revision": "ca5f9ca0e2dbd25684bea78dd7d6d042",
     "url": "/cv-leo/static/media/integration.ca5f9ca0.png"
   },
@@ -72,11 +76,15 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/soleil.c278f326.png"
   },
   {
+    "revision": "3c73528583289d521f305e5b3bfcad79",
+    "url": "/cv-leo/static/media/sport.3c735285.png"
+  },
+  {
     "revision": "7c5417f647c66aef0f9f606c8da0732f",
     "url": "/cv-leo/static/media/trip.7c5417f6.jpg"
   },
   {
-    "revision": "84e8cf5f5309560ac52036131cf19ab3",
+    "revision": "4d754198a7a935a47140e43844a62fe3",
     "url": "/cv-leo/index.html"
   }
 ];
