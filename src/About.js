@@ -6,7 +6,7 @@ function About() {
         <div id={"about"} className={"elementBody"}>
             <div id={"cont"} className={"elementBodyPadding"}>
                 <h1>A propos de moi</h1>
-                <div>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre. Ille quidem fructum omnis ante actae vitae hodierno die maximum cepit, cum summo consensu senatus, tum iudicio tuo gravissimo et maximo. Ex quo profecto intellegis quanta in dato beneficio sit laus, cum in accepto sit tanta gloria.</div>
+                <div>Diplômé en septembre 2022 de l'école d'ingénieur en informatique ISIMA - Institut Supérieur d'Informatique, de Modélisation et de leurs Applications spécialité Génie Logiciel et Système d'information, je recherche un emploi dans le domaine du développement d'applications web ou mobiles à partir de janvier 2023. </div>
             </div>
         </div>
     )

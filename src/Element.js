@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Element.css"
-import {faCalendarDays, faLocationDot, faCircleArrowRight, faLink, faCode} from '@fortawesome/free-solid-svg-icons'
+import {faCalendarDays, faLocationDot, faCircleArrowRight, faLink, faCode, faFutbol, faPersonBiking, faPersonRunning} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -11,6 +11,12 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
+
+const myIcons = {
+    faFutbol : faFutbol,
+    faPersonBiking: faPersonBiking,
+    faPersonRunning: faPersonRunning
+}
 
 function Element({title, picture, location, link, linkGit, dateFirst, dateEnd, description, details, technos, color, list, index, length}) {
 
@@ -25,7 +31,14 @@ function Element({title, picture, location, link, linkGit, dateFirst, dateEnd, d
     if(list !== undefined) {
         listObject = list.map((element, index) =>
             <li key={`${element}-${index}`} id={"list"}>
-                <span id={"keySpan"}>{element.key}</span>
+                {
+                    title === 'Sport' &&
+                    <FontAwesomeIcon icon={myIcons[element.key]}/>
+                }
+                {
+                    title !== 'Sport' &&
+                    <span id={"keySpan"}>{element.key}</span>
+                }
                 <span>{element.value}</span>
             </li>
         );

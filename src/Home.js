@@ -44,7 +44,7 @@ function Home(){
 
                 <button onClick={download}>
                     <FontAwesomeIcon icon={faDownload}  className={"fa-bounce"}/>
-                    <div>Télécharger mon CV</div>
+                    <div>Télécharger mon CV (.pdf)</div>
                 </button>
 
 

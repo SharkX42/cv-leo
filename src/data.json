@@ -134,6 +134,62 @@
           "color" : "rgba(41, 159, 34, 0.7)"
         }
       ]
+    },
+    {
+      "id": "5",
+      "name": "Langues",
+      "content" :[
+        {
+          "picture": "fr.png",
+          "title" : "Français",
+          "list": [
+            {"value" : "Natif"}
+          ]
+        },
+        {
+          "picture": "gb.png",
+          "title" : "Anglais",
+          "list": [
+            {"value" : "TOEIC : 815"},
+            {"value" : "Voyage en Australie prévue d'octobre 2022 à décembre 2022"}
+          ]
+        },
+        {
+          "picture": "es.png",
+          "title" : "Espagnol",
+          "list": [
+            {"value" : "Niveau intermédiaire"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Centres d'intérêts",
+      "content" :[
+        {
+          "picture": "sport.png",
+          "title" : "Sport",
+          "list": [
+            {"key": "faFutbol", "value" : "Football en club"},
+            {"key": "faPersonRunning", "value" : "Course à pied"},
+            {"key": "faPersonBiking", "value" : "Vélo"}
+          ]
+        },
+        {
+          "picture": "image.jpg",
+          "title" : "Chef de projet à IMAGE",
+          "description": "Association entreprise de l'ISIMA",
+          "dateFirst": "2020",
+          "dateEnd": "2021",
+          "link": "https://www.imageisima.fr",
+          "list": [
+            {"value" : "Echange avec les clients pour définir leurs besoins"},
+            {"value" : "Etablissement de cahiers des charges et de devis"},
+            {"value" : "Suivi de projets"}
+          ]
+        }
+      ]
     }
   ]
 }
