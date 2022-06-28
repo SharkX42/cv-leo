@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/trip.7c5417f6.jpg"
   },
   {
-    "revision": "576561c4c54d2b20fd2ed6685793d18c",
+    "revision": "db80501a37ffcf845912a905ac8f1dec",
     "url": "/cv-leo/index.html"
   }
 ];
