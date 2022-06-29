@@ -4,24 +4,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhone, faDownload } from '@fortawesome/free-solid-svg-icons'
-import cv from './files/CV_DELABRE_LEO.pdf'
-
-function download(){
-    fetch(cv)
-        .then(resp => resp.blob())
-        .then(blob => {
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.style.display = 'none';
-            a.href = url;
-            // filename
-            a.download = 'CV_DELABRE_LEO';
-            document.body.appendChild(a);
-            a.click();
-            window.URL.revokeObjectURL(url);
-        })
-        .catch(() => alert('Erreur'));
-}
+import {Button} from "react-bootstrap";
 
 function Home(){
     return(
@@ -42,10 +25,10 @@ function Home(){
                     Ingénieur en informatique - Alternant développeur Java chez CGI
                 </div>
 
-                <button onClick={download}>
-                    <FontAwesomeIcon icon={faDownload}  className={"fa-bounce"}/>
-                    <div>Télécharger mon CV (.pdf)</div>
-                </button>
+                <Button id={"buttonDownload"} href={"./files/CV_DELABRE_LEO.pdf"} download target={"_blank"}>
+                        <FontAwesomeIcon icon={faDownload}  className={"fa-bounce"}/>
+                        <div>Télécharger mon CV (.pdf)</div>
+                </Button>
 
 
                 <div id={"separation"}></div>
