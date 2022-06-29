@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "73835e5881b711f253e3",
-    "url": "/cv-leo/static/css/main.6e2859ef.chunk.css"
+    "revision": "95ab959e22b65856fd6f",
+    "url": "/cv-leo/static/css/main.e91b0f9f.chunk.css"
   },
   {
-    "revision": "73835e5881b711f253e3",
-    "url": "/cv-leo/static/js/main.73835e58.chunk.js"
+    "revision": "95ab959e22b65856fd6f",
+    "url": "/cv-leo/static/js/main.95ab959e.chunk.js"
   },
   {
-    "revision": "c4f7f642b5f618d3248b",
-    "url": "/cv-leo/static/css/1.79e3cd17.chunk.css"
+    "revision": "a5e9cc4996859230b28c",
+    "url": "/cv-leo/static/css/1.69b1a815.chunk.css"
   },
   {
-    "revision": "c4f7f642b5f618d3248b",
-    "url": "/cv-leo/static/js/1.c4f7f642.chunk.js"
+    "revision": "a5e9cc4996859230b28c",
+    "url": "/cv-leo/static/js/1.a5e9cc49.chunk.js"
   },
   {
     "revision": "9f8f3ab36eb9e1808c77",
@@ -22,10 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "814dc12d002b5baaa903e7a3afc2362c",
     "url": "/cv-leo/static/media/avatar.814dc12d.png"
-  },
-  {
-    "revision": "01404860923e9b1aa4aba00850ead0fa",
-    "url": "/cv-leo/static/media/CV_DELABRE_LEO.01404860.pdf"
   },
   {
     "revision": "2482c36fa538ff24b63eedec971b6874",
@@ -80,7 +76,7 @@ self.__precacheManifest = [
     "url": "/cv-leo/static/media/trip.7c5417f6.jpg"
   },
   {
-    "revision": "db80501a37ffcf845912a905ac8f1dec",
+    "revision": "dfb3bc073b5ca8184aa01291df1b532e",
     "url": "/cv-leo/index.html"
   }
 ];
